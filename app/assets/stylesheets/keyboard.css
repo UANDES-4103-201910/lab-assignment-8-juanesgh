@@ -7,12 +7,17 @@ html {
 
 #kcontainer {
 	display: flex;
+	height: 100%;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: bottom;
+	margin-bottom: 500px;
 }
-
+.txt {
+	background-color: aqua;
+	width: 100%
+}
 .keyboard_row {
 	display: flex;
 	flex-direction: row;
